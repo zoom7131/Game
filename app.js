@@ -38,7 +38,7 @@ var compare = function(choice1, choice2){
     }
 };
 
-while(playerScore < 5 && compScore < 5 && rounds < 10){
+while(playerScore < 5 && compScore < 5 && rounds < 666){
 
     console.log("** ROUND" + " " + rounds + " **\n");
 
@@ -77,6 +77,6 @@ if (playerScore > compScore){
 else if (playerScore < compScore){
     console.log("*******************\nComputer wins!\n*******************");
 }
-else {
+else if (playerScore === compScore){
     console.log("*******************\nIt's a gremlin tie!\n*******************");
 }
