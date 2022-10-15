@@ -38,7 +38,7 @@ var compare = function(choice1, choice2){
     }
 };
 
-while(playerScore < 5 && compScore < 5 && rounds < 666){
+while(playerScore < 5 && compScore < 5 && rounds < 99){
 
     console.log("** ROUND" + " " + rounds + " **\n");
 
